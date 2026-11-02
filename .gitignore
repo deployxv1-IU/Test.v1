@@ -1,0 +1,69 @@
+﻿# Dependencies
+node_modules/
+.pnp/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Prisma local artifacts
+prisma/*.db
+prisma/*.db-journal
+
+# Deployment platforms
+.vercel/
+.netlify/
+
+# Editor and IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+.cache/
